@@ -280,6 +280,7 @@ header_link:active {
 .intro {
   min-height: 100h;
   background: url(/img/bg_1.jpg) no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url("/img/bg_1.jpg"));
   background-size: cover;
   padding-top: 265px;
 }
@@ -301,6 +302,8 @@ header_link:active {
 }
 
 .intro_title {
+  font-family: 'Josefin+Sans';
+  color: white;
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
@@ -312,12 +315,14 @@ header_link:active {
 }
 
 .intro_subtitle {
+  color: aliceblue;
   font-size: 16px;
   line-height: 24px;
   max-width: 410px;
   margin-bottom: 60px;
   text-align: right;
   padding: 0;
+
 }
 
 .intro_menu {
@@ -368,8 +373,36 @@ header_link:active {
 .view_menu {
   color: white;
   border: 1px solid white;
+}
 
-
+.intro_new{
+  min-height: 100h;
+  background: url(/img/bg_3.jpg) no-repeat center;
+  background-size: cover;
+  width: 1100px;
+  height: 600px;
+  padding-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.intro_subtitle1{
+  color: aliceblue;
+  width: 680px;
+  font-size: 16px;
+  line-height: 24px;
+   margin-bottom: 60px;
+   text-align: center;
+  padding: 0;
 }
 
 /*Intro end*/
+
+/*gallery start*/
+.gallery{
+  background: url(/img/bg_2.jpg) no-repeat center;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url("/img/bg_2.jpg"));
+}
+
+/*gallery end*/
