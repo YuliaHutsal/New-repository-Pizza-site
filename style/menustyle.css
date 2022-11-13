@@ -61,6 +61,7 @@
     line-height: 24px;
     color: white;
     text-decoration: none;
+    transition: color 0.3s linear;
   }
   
   .header_link:hover,
@@ -100,15 +101,26 @@
   }
   
   /*header end*/
+.main_menu{
+background-image: url(/img/bg_4.jpg);
+background-size: cover;
+width: auto;
+  }
 .main_menu_title{
     font-family: 'Josefin+Sans';
     color: white;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 60px;
     letter-spacing: 2px;
-    margin-bottom: 40px;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 auto;
+    padding-top: 100px;
+}
+.main_subtitle{
+    text-align: center;
+    color: rgb(207, 212, 217);
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 343px 50px 343px;
 }

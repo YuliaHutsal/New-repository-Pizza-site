@@ -240,6 +240,7 @@ img{
   line-height: 24px;
   color: white;
   text-decoration: none;
+  transition: color 0.3s linear;
 }
 
 .header_link:hover,
@@ -349,6 +350,7 @@ img{
   color: brown;
   padding: 15px 40px;
   text-transform: capitalize;
+  transition: color 0.3s linear;
 }
 
 .view_menu {
@@ -356,6 +358,7 @@ img{
   color: brown;
   padding: 15px 40px;
   text-transform: capitalize;
+  
 }
 
 .order:hover,
