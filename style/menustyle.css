@@ -190,6 +190,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  padding-bottom: 100px;
 }
 
 .menu2_container{

@@ -408,7 +408,6 @@ img{
 
 /*gallery start*/
 .gallery{
-  /* background: url(/img/bg_2.jpg) no-repeat center; */
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/bg_2.jpg');
   background-size: cover;
   
