@@ -105,3 +105,42 @@ img {
 
 /*header end*/
 
+/* main start */
+
+.main_blog{
+    background:url(/img/bg_4.jpg);
+    background-size: cover;
+    width: auto;
+    padding-top: 55px;
+}
+.blog_title{
+    font-family: 'Josefin+Sans';
+    color:white;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+}
+.blog_text_title{
+    color:#c6ced4;
+    font-style: normal;
+    line-height: 1.2rem;
+    text-align: center;
+    padding: 0px 223px 50px 223px;
+}
+.blog_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+.blog_container .blog_container_item .blog_image{
+width: 300px;
+height: 300px;
+}
+.blog_data_disc{
+    display: flex;
+}
+/* main end */
