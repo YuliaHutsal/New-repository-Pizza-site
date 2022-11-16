@@ -623,8 +623,9 @@ display: flex;
   font-size: 14px;
   color: aliceblue;
 }
-.footer_text_adress, .footer_phone_number, .footer_email{
+.footer_text_adress .footer_phone_number .footer_email{
   padding-left: 20px;
+  color: aliceblue;
 }
 .footer_copyright{
   margin-top: 100px;
