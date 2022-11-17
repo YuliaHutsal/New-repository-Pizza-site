@@ -104,3 +104,70 @@ img {
 }
 
 /*header end*/
+
+/* main about start */
+.main_about_contacts{
+    width: auto;
+    padding-top: 62px;
+   
+}
+.about_contacts{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 150px;
+ }
+.about_contacts_part1{
+    background-color: #121618;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 30px;
+}
+.about_contacts_info_item{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.about_contacts_part1 .about_contacts_info .about_text{
+    padding-left: 70px;
+    color: rgb(140, 143, 146);
+    font-size: 13px;
+    font-weight: 200;
+
+}
+.about_contacts_icon{
+    width: 15px;
+    height: 15px;
+}
+.about_contacts_number{
+    padding-left: 15px;
+}
+
+.about_contacts_part2{
+    background-color: #FAC564;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+}
+.about_contacts_part2 .about_icon{
+    width: 20px;
+    height: 20px;
+}
+.about_welcome{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about_description_welcome{
+    background: url(/img/bg_4.jpg);
+   
+}
+.welcom_title{
+    display: flex;
+    justify-content: centerS;
+}
+/* main about end */
+
