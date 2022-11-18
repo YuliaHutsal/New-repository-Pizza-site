@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,200;0,300;1,400;1,500&display=swap");
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+/*header start*/
+.header {
+    background-color: #121618;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_item {
+    margin-right: 82px;
+    list-style-type: none;
+
+}
+
+.header_link {
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+    color: #f7a712;
+    opacity: .75;
+}
+
+.header_logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_logo_link {
+    display: flex;
+    padding: 0;
+
+}
+
+.logo_pizza {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    width: 50px;
+    padding: 0;
+}
+
+.logo_delicous {
+    font-size: 12px;
+    color: #FAC564;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 0;
+}
+
+/*header end*/
