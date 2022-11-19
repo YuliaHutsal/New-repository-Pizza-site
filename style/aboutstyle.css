@@ -169,6 +169,10 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.about_images_welcome{
+    width: 100%;
+    height: 100vh;
+}
 
 .about_description_welcome {
     background: url(/img/bg_4.jpg);
