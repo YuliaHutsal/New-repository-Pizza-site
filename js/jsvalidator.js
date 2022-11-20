@@ -1,20 +1,7 @@
-var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
-var name = document.getElementById('nameInput').value;
-if(!regName.test(name)){
-    alert('Invalid name given.');
-}else{
-    alert('Valid name given.');
-}
-
-function validate(){
-    var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
-    var name = document.getElementById('name').value;
-    if(!regName.test(name)){
-        alert('Please enter your full name (first & last name).');
-        document.getElementById('name').focus();
-        return false;
-    }else{
-        alert('Valid name given.');
-        return true;
+const form = document.forms[0];
+form.addEventListener("submit", function(e)
+{
+    if((form.firstName.value.lenght == 0) || (form.lastName.value.lenght == 0)){
+        e.preventDefault();
     }
-}
+});
