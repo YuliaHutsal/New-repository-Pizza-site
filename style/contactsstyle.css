@@ -148,7 +148,8 @@ form{
 }
 input, textarea{
     background-color: #121618;
-    width: 500px;
+    color: white;
+    width: 520px;
     padding: 0.85rem 2rem;
     border: 0;
     padding-left: 0;
