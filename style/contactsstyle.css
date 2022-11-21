@@ -225,7 +225,15 @@ cursor: pointer;
     font-size: 12px;
     width: 170px
 }
-
+.footer_recept_blog_text{
+    text-decoration: none;
+  }
+  .footer_recept_blog_text:hover,
+  .footer_recept_blog_text:active,
+  .footer_recept_blog_text:focus
+  {
+    color: #c6ced4;
+  }
 .footer_image {
     width: 80px;
     height: 80px;
