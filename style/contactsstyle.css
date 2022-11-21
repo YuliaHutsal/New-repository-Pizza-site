@@ -162,7 +162,7 @@ input, textarea{
     border: 0;
     padding: 10px;
 }
-.btn_contacts:hover{
+.btn_contacts:hover .btn_contacts:active .btn_contacts:focus{
 background-color: #f7a712;
 transition: 0.6s;
 letter-spacing: 3px;
