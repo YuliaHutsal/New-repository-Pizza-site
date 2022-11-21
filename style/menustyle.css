@@ -181,7 +181,14 @@ img {
   border: 1px solid white;
   padding: 3px 8px;
 }
-
+.btn_1:hover,
+.btn_1:active,
+.btn_1:focus{
+  background: #FAC564;
+  transition: 0.6s;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
 /*menu1 end*/
 
 /*menu2 start*/
