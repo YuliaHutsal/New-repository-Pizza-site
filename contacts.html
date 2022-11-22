@@ -59,14 +59,25 @@
             </div>
             <div class="main_contacts_form">
                 <h3 class="contacts_title">Contacts Us</h3>
-                <form action="" method="GET">
+                <form action="" method="GET" name="nameForm">
                     <div class="form_group">
-                        <input type="text" name="firstName" id="name" placeholder="First Name"
-                            pattern="[A-Za-z]{1, 32}" required>
+                        <input type="text" 
+                                name="firstName" 
+                                id="nameFirst" 
+                                placeholder="First Name"
+                                pattern="[A-Za-z]{1,15}"
+                                required>
+                                 <span class="error" id="firstnameError">Firstname should only contain english letter e.g. Olia </span>
+                            
                     </div>
                     <div class="form_group">
-                        <input type="text" name="lastName" id="name" placeholder="Last Name"
-                            pattern="[A-Za-z]{1, 32}" required>
+                        <input type="text"
+                                name="lastName"
+                                id="nameLast"
+                                placeholder="Last Name"
+                                pattern="[A-Za-z]{1,15}" 
+                                required>
+                                <span class="error" id="lastnameError">Lastname should only contain english letter e.g. Olia </span>
                     </div>
                     <div class="form_group">
                         <textarea name="message" id="message" placeholder="Message" rows="3"></textarea>

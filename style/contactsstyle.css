@@ -147,13 +147,17 @@ form{
     font-size: 15px;
 }
 
+.error {
+    color: #FAC564;
+    display: none;
+}
 input:valid {
-    border: 1px solid #c6ced4;
+    border: 1px solid #121618;
 }
 
 
 input:invalid {
-    border: 1px solid #FAC564;
+    border: 1px solid #121618;
 }
 
 input, textarea{
